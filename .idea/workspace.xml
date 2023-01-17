@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5e78cf8-1949-4658-904a-feef57b96c03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/annotation/RunnerFetch01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/embeddeable/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/embeddeable/RunnerFetch02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/embeddeable/RunnerSave02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/embeddeable/Student02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni_onetoone/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni_onetoone/RunnerSave03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni_onetoone/Student03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bi_onetoone/Diary02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bi_onetoone/RunnerFetch04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bi_onetoone/RunnerSave04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bi_onetoone/Student04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni_onetoone/RunnerFetch03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
