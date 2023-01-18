@@ -1,6 +1,4 @@
-package com.uni_onetoone;
-
-import com.embeddeable.Student02;
+package com.hb3uni_onetoone;
 
 import javax.persistence.*;
 

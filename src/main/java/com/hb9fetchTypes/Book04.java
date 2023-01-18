@@ -1,20 +1,18 @@
-package com.bi_onetoone;
+package com.hb9fetchTypes;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name="t_diary02")
-public class Diary02 {
+@Table(name="t_book04")
+public class Book04 {
     @Id
-    private int id;
+    private  int id;
+
     private String name;
 
-    @OneToOne
-    @JoinColumn
-    private Student04 student;
-
-    //Getter-setter
-
+@ManyToOne
+@JoinColumn
+    private Student09 student;
 
     public int getId() {
         return id;
@@ -32,20 +30,20 @@ public class Diary02 {
         this.name = name;
     }
 
-    public Student04 getStudent() {
+    public Student09 getStudent() {
         return student;
     }
 
-    public void setStudent(Student04 student) {
+    public void setStudent(Student09 student) {
         this.student = student;
     }
 
     @Override
-  public String toString() {
-        return "Diary02{" +
+    public String toString() {
+        return "Book04{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", student=" + student +
+              //  ", student=" + student +
                 '}';
     }
 }

@@ -1,7 +1,5 @@
-package com.bi_onetoone;
+package com.hb4bi_onetoone;
 
-import com.uni_onetoone.Diary;
-import com.uni_onetoone.Student03;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

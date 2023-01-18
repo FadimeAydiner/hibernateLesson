@@ -1,20 +1,20 @@
-package com.embeddeable;
+package com.hb3uni_onetoone;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-@Table(name="t_student02")
-public class Student02 {
+@Table(name="t_student03")
+public class Student03 {
     @Id
-    private  int id;
+    private int id;
 
-    @Column(name="student_name",length = 100,unique = false,nullable = false)
-     private String name;
+    @Column(name="std_name")
+    private String name;
 
     private int grade;
-
-    @Embedded//optional java understand
-    private Address address;
 
     public int getId() {
         return id;
@@ -40,21 +40,12 @@ public class Student02 {
         this.grade = grade;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
-
     @Override
     public String toString() {
-        return "Student02{" +
+        return "Student03{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", grade=" + grade +
-                ", address=" + address +
                 '}';
     }
 }

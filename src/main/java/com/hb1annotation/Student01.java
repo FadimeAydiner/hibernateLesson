@@ -1,4 +1,4 @@
-package com.annotation;
+package com.hb1annotation;
 
 import javax.persistence.*;
 

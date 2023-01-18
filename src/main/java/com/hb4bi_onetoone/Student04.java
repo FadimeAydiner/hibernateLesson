@@ -1,20 +1,20 @@
-package com.uni_onetoone;
+package com.hb4bi_onetoone;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name="t_student03")
-public class Student03 {
+@Table(name = "t_student04")
+public class Student04 {
     @Id
     private int id;
 
-    @Column(name="std_name")
+    @Column(name = "std_name")
     private String name;
 
     private int grade;
+
+    @OneToOne(mappedBy = "student")
+    private Diary02 diary;
 
     public int getId() {
         return id;
@@ -40,12 +40,22 @@ public class Student03 {
         this.grade = grade;
     }
 
+    public Diary02 getDiary() {
+        return diary;
+    }
+
+    public void setDiary(Diary02 diary) {
+        this.diary = diary;
+    }
+
     @Override
-    public String toString() {
-        return "Student03{" +
+   public String toString() {
+
+        return "Student04{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", grade=" + grade +
+
                 '}';
     }
 }

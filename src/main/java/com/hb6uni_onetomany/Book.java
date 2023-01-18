@@ -1,20 +1,15 @@
-package com.uni_manytoone;
+package com.hb6uni_onetomany;
 
-import jdk.jfr.Enabled;
-
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="t_university")
-public class University {
-    @Id
+@Table(name = "t_book")
+public class Book {
+@Id
     private int id;
-
-    @Column(name="uni_name",nullable = false,unique = true)
-    private  String name;
+private String name;
 
     public int getId() {
         return id;
@@ -34,7 +29,7 @@ public class University {
 
     @Override
     public String toString() {
-        return "University{" +
+        return "Book{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

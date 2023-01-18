@@ -39,8 +39,11 @@
 
         <property name="format_sql">true</property>
 
+        <!--This will map entity clases without addAdnnonated class
+        <mapping class="com.uni_manytoone.Student05"/>
+        <mapping class="com.uni_manytoone.University"/>
 
-
+-->
     </session-factory>
 
 </hibernate-configuration>

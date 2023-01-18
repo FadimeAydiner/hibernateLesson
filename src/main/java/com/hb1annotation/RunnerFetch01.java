@@ -1,11 +1,10 @@
-package com.annotation;
+package com.hb1annotation;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-import java.io.ObjectOutput;
 import java.util.Arrays;
 import java.util.List;
 

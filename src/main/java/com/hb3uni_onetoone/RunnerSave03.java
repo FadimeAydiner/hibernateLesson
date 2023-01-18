@@ -1,6 +1,5 @@
-package com.uni_onetoone;
+package com.hb3uni_onetoone;
 
-import com.annotation.Student01;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

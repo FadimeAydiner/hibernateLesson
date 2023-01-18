@@ -1,29 +1,24 @@
-package com.uni_manytoone;
+package com.hb10idgeneration;
 
-import jdk.jfr.Enabled;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name="t_university")
-public class University {
+@Table(name = "t_student10")
+public class Student10 {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
-
-    @Column(name="uni_name",nullable = false,unique = true)
-    private  String name;
+    @Column(name="st_name")
+    private String name;
 
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+  /*  public void setId(int id) {
         this.id = id;
     }
-
+*/
     public String getName() {
         return name;
     }
@@ -34,7 +29,7 @@ public class University {
 
     @Override
     public String toString() {
-        return "University{" +
+        return "Student10{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
